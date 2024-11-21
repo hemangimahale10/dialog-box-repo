@@ -51,3 +51,33 @@
     cursor: pointer;
 }
 
+.overlay{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal{
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;           
+}
+
+.form{
+    display: flex;
+    flex-direction: column;            
+}
+
+.form-input{
+    margin: 10px;
+    padding: 5px;
+}

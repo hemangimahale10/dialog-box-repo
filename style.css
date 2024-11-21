@@ -12,3 +12,42 @@
     border-radius: 10px;           
 }
 
+.content{
+    margin-left: 30px;
+    border: 2px solid black;
+    position: relative;
+    left: 40px;
+    border-radius: 20px;
+    padding: 10px;
+    height: 450px;
+    margin-top: 25px;
+    width: 350px;
+}
+
+.main-container{
+    display: flex;
+    margin-left: 50px;
+}
+
+.course{
+    text-align: center;
+}
+
+.course-elements{
+    margin-left:80px;
+    margin-top: 10px;
+}
+
+.btn-register-now{
+    display: block;
+    margin: 40px auto;
+    width: 180px;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    background-color: #00cc7a;
+    font-size:medium;
+    cursor: pointer;
+}
+

@@ -81,3 +81,24 @@
     margin: 10px;
     padding: 5px;
 }
+
+.proceed-btn{
+    display: block;
+    margin: 40px auto;
+    width: 200px;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    background-color: rgb(51, 156, 120);
+    font-size:medium;
+    cursor: pointer;
+}
+
+.close-icon{
+    height: 25px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}

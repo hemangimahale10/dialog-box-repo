@@ -39,7 +39,7 @@
             <h2 style="text-align: center;"> Registrstion Form </h2>
 
             <form class="form">
-                
+
                 <input type="text" placeholder="Enter Your Name" class="form-input" required>
                 <input type="email" placeholder="Enter Your Email" class="form-input" required>
                 <input type="" placeholder="Enter Your Mobile No." class="form-input" required>
@@ -51,5 +51,16 @@
         </div>
     </div>
 
+    <script>
+        function openModal(){
+            const overlayElement = document.getElementById('overlay');
+            overlayElement.style.display = 'flex';
+        }
+
+        function closeModal(){
+            const overlayElement = document.getElementById('overlay');
+            overlayElement.style.display = 'none';
+        }
+    </script>
 </body>
 </html>
